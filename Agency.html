@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Creative Design Agency</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fefefe;
+      color: #000;
+    }
+
+    header {
+      padding: 30px;
+    }
+
+    .logo {
+      color: orange;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .hero {
+      padding: 30px;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      margin: 0;
+    }
+
+    .hero .highlight {
+      color: #1f1fac; /* warna biru gelap */
+    }
+
+    .content {
+      display: flex;
+      justify-content: space-between;
+      padding: 40px 30px;
+    }
+
+    .box {
+      width: 45%;
+    }
+
+    .box img {
+      width: 100%;
+      border-radius: 6px;
+    }
+
+    .box h2 {
+      font-size: 18px;
+      margin-top: 15px;
+    }
+
+    .box p {
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    .footer {
+      text-align: right;
+      padding: 20px 30px;
+      color: #1f1fac;
+      font-weight: 600;
+    }
+
+    @media (max-width: 768px) {
+      .content {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .box {
+        width: 100%;
+        margin-bottom: 20px;
+      }
+
+      .box img {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">dev.com</div>
+  </header>
+
+  <section class="hero">
+    <h1>We are a <span class="highlight">Creative</span></h1>
+    <h1>Design Agency</h1>
+  </section>
+
+  <section class="content">
+    <div class="box">
+      <img src="Img/Beauty_Sweden.jpg" alt="Beauty Image" />
+      <h2>Beauty</h2>
+      <p>We strive to create the most beautiful websites for all your needs. Working closely with you to design and develop an amazing website for your business.</p>
+    </div>
+    <div class="box">
+      <img src="Img/Construction.jpg" alt="Construction Image" />
+      <h2>Construction</h2>
+      <p>Built by our team of professional developers, we ensure the most rigourous and modern websites. Built from scratch using HTML and CSS. Only the best for you.</p>
+    </div>
+  </section>
+
+  <div class="footer">
+    Create. Develop. Design.
+  </div>
+</body>
+</html>
